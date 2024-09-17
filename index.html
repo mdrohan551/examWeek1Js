@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container {
+            margin-top: 30px;
+        }
+        .result-section {
+            margin-top: 20px;
+        }
+        .section-title {
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Simple Calculator and Number Checker</h1>
+        
+        <!-- Difference Calculation Section -->
+        <div class="result-section">
+            <h2 class="section-title" id="result">Calculate Difference</h2>
+            <div class="form-group">
+                <label for="inputA">Number A:</label>
+                <input type="number" class="form-control" id="inputA">
+            </div>
+            <div class="form-group">
+                <label for="inputB">Number B:</label>
+                <input type="number" class="form-control" id="inputB">
+            </div>
+            <button class="btn btn-primary" onclick="showResult()">Calculate Difference</button>
+
+        </div>
+
+        <!-- Even/Odd Checker Section -->
+        <div class="result-section">
+            <h2 class="section-title" id="result2">Check Even/Odd</h2>
+            <div class="form-group">
+                <label for="odd">Number:</label>
+                <input type="number" class="form-control" id="odd">
+            </div>
+            <button class="btn btn-primary" onclick="showResult2()">Check Even/Odd</button>
+        </div>
+
+        <!-- Minimum Number Finder Section -->
+        <div class="result-section">
+            <h2 class="section-title" id="result3">Find Minimum Number</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="findMIN" placeholder="Enter numbers separated by commas">
+            </div>
+            <button class="btn btn-primary" onclick="showMIN()">Find Minimum</button>
+        </div>
+
+
+
+        <!-- even Number Finder Section -->
+        <div class="result-section">
+            <h2 class="section-title" id="result4">Find evenFilter Number</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="findEven" placeholder="Enter numbers separated by commas">
+            </div>
+            <button class="btn btn-primary" onclick="showEven()">Find Even</button>
+        </div>
+
+        <!-- sortArrayDescending Number Finder Section -->
+        <div class="result-section">
+            <h2 class="section-title" id="result5">Find sortArrayDescending Number</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="findDes" placeholder="Enter numbers separated by commas">
+            </div>
+            <button class="btn btn-primary" onclick="showDescending()">FindDescending</button>
+        </div>
+
+
+        <!-- tolowercase Number Finder Section -->
+        <div class="result-section">
+            <h2 class="section-title" id="result6">TO lower case</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="lower" placeholder="Enter letter ">
+            </div>
+            <button class="btn btn-primary" onclick="tolowercase()">tolowercase</button>
+        </div>
+        <!-- countVowelsFrontEnd  Finder Section -->
+        <div class="result-section">
+            <h2 class="section-title" id="result7">Count vowels</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="vowels" placeholder="Enter letter ">
+            </div>
+            <button class="btn btn-primary" onclick="countVowelsFrontEnd()">vowels</button>
+        </div>
+        <!-- findAverage  Finder Section -->
+        <div class="result-section">
+            <h2 class="section-title" id="result8">find Average</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" id="Average" placeholder="Enter numbers separated by commas ">
+            </div>
+            <button class="btn btn-primary" onclick="Average()">Average</button>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Your custom JS -->
+    <script src="./js/index.js"></script>
+</body>
+</html>
