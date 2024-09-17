@@ -140,7 +140,7 @@ function showDescending() {
 
     let strArray = input.split(',').map(Num=>parseFloat(Num));
     let minValue = sortArrayDescending(strArray);
-    document.getElementById('result5').textContent = 'Find sortArrayDescending: ' + minValue;
+    document.getElementById('result5').textContent = 'Find sortArrayDescending : ' + minValue;
 }
 
 
